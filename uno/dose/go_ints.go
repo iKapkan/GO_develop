@@ -13,10 +13,10 @@ func Ints() {
 	var _ = h // чтоб не жаловался что h не вызывается
 
 	fmt.Println(reflect.TypeOf(w), " == ", w)
-	fmt.Printf("Тип W== %v, значение %v\n", reflect.TypeOf(w), w)
+	fmt.Printf("Тип W== %v, значение %v, был == 17\n", reflect.TypeOf(w), w)
 
+	fmt.Printf("Тип F== %v, значение %v\n", reflect.TypeOf(*f), *f)
 	fmt.Printf("Указатель на ячейку памяти W %v\n", &f)
-	fmt.Println(reflect.TypeOf(*f), " == ", *f)
 }
 
 func Trino() {
