@@ -7,5 +7,6 @@ import (
 
 func main() {
 	fut.Ints()
-	rut.Speacks()
+	rut.Speacks() //name, age
+	rut.TwoSum([]int{2, 7, 11, 15}, int(9))
 }
